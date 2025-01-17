@@ -1,0 +1,75 @@
+/* Navbar styles */
+.custom-navbar {
+  background-color: #343a40 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.custom-navbar .navbar-brand h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 0.3s;
+}
+
+.custom-navbar .navbar-brand h3:hover {
+  color: #f1c40f; /* Gold color on hover */
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.custom-navbar .navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.custom-navbar .nav-link {
+  color: #fff !important;
+  font-size: 50px;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #f1c40f !important; /* Gold color on hover */
+}
+
+.custom-navbar .btn-e-magazine {
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #f1c40f;
+  border: none;
+  padding: 8px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-navbar .btn-e-magazine:hover {
+  background-color: #d4ac0d;
+}
+
+/* Add responsiveness */
+@media (max-width: 991px) {
+  .custom-navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  .custom-navbar .navbar-nav {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .custom-navbar .nav-link {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .custom-navbar .btn-e-magazine {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
