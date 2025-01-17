@@ -20,17 +20,17 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
         <Navbar.Collapse id="basic-navbar-nav" in={isMenuOpen}>
           <Nav className="mx-auto">
-            <HashLink smooth to="/#cultural-historical" className="nav-link text-opacity-100 fs-5">Cultural and Historical Attractions</HashLink> {/* text-opacity */}
-            <HashLink smooth to="/#natural-wonders" className="nav-link text-opacity-90 fs-5">Natural Wonders</HashLink>
-            <HashLink smooth to="/#hill-country" className="nav-link text-opacity-90 fs-5">Hill Country</HashLink>
+            <HashLink smooth to="/#cultural-historical" className="nav-link text-white opacity-100 fs-5">Cultural and Historical Attractions</HashLink> {/* text-opacity */}
+            <HashLink smooth to="/#natural-wonders" className="nav-link text-white opacity-90 fs-5">Natural Wonders</HashLink>
+            <HashLink smooth to="/#hill-country" className="nav-link text-white opacity-90 fs-5">Hill Country</HashLink>
             <HashLink 
               smooth 
               to="/#beaches-and-coastal-beauty" 
-              className="nav-link text-opacity-90 fs-5"
+              className="nav-link text-white opacity-90 fs-5"
             >
               Beaches and Coastal Beauty
             </HashLink>
-            <HashLink smooth to="/#unique-experiences" className="nav-link text-opacity-90 fs-5">Unique Experiences</HashLink>
+            <HashLink smooth to="/#unique-experiences" className="nav-link text-white opacity-90 fs-5">Unique Experiences</HashLink>
           </Nav>
           <Button
             variant="outline-light"

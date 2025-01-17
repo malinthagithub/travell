@@ -5,18 +5,18 @@ import Navbar from './Navbar';
 
 const attractions = {
   'Cultural and Historical Attractions': [
-    { id: 1, name: 'Sigiriya Rock Fortress', image: 'sigiriya.jpg', description: 'A UNESCO World Heritage Site, this ancient rock fortress is famed for its stunning frescoes and breathtaking views.' },
-    { id: 2, name: 'Dambulla Cave Temple', image: 'dambulla.jpg', description: 'A network of caves adorned with Buddhist murals and statues, reflecting Sri Lanka\'s deep spiritual history.' },
-    { id: 3, name: 'Polonnaruwa', image: 'polonnaruwa.jpg', description: 'An ancient city with impressive ruins, including the Gal Vihara, showcasing beautiful Buddha statues carved into granite.' },
-    { id: 4, name: 'Anuradhapura', image: 'anuradhapura.jpg', description: 'The ancient capital known for its sacred Bodhi Tree, temples, and stupas like Ruwanwelisaya.' },
-    { id: 5, name: 'Temple of the Tooth Relic, Kandy', image: 'kandy_temple.jpg', description: 'A revered Buddhist temple that houses the sacred tooth relic of Lord Buddha.' },
+    { id: 1, name: 'Sigiriya Rock Fortress', image: 'BW4YPnXzX3u1.jpg', description: 'A UNESCO World Heritage Site, this ancient rock fortress is famed for its stunning frescoes and breathtaking views.' },
+    { id: 2, name: 'Dambulla Cave Temple', image: 'lankaclassytours-dambulla-cavetemple.jpeg', description: 'A network of caves adorned with Buddhist murals and statues, reflecting Sri Lanka\'s deep spiritual history.' },
+    { id: 3, name: 'Polonnaruwa', image: 'images.jpeg', description: 'An ancient city with impressive ruins, including the Gal Vihara, showcasing beautiful Buddha statues carved into granite.' },
+    { id: 4, name: 'Anuradhapura', image: '5d7f6b5bca7664aa4c441ba2.jpeg', description: 'The ancient capital known for its sacred Bodhi Tree, temples, and stupas like Ruwanwelisaya.' },
+    { id: 5, name: 'Temple of the Tooth Relic, Kandy', image: 'Temple-Of-The-Sacred-Tooth-Relic-Kandy-Sri-Lanka-1.jpg', description: 'A revered Buddhist temple that houses the sacred tooth relic of Lord Buddha.' },
   ],
   'Natural Wonders': [
-    { id: 6, name: 'Adam’s Peak (Sri Pada)', image: 'adams_peak.jpg', description: 'A sacred mountain with a unique footprint, offering a spiritual climb and a stunning sunrise view.' },
-    { id: 7, name: 'Horton Plains National Park', image: 'horton_plains.jpg', description: 'Famous for its "World\'s End" viewpoint, this plateau is ideal for trekking amidst misty landscapes.' },
-    { id: 8, name: 'Yala National Park', image: 'yala.jpg', description: 'Known for its leopard population, Yala offers a chance to see wildlife like elephants, sloth bears, and exotic birds.' },
-    { id: 9, name: 'Udawalawe National Park', image: 'udawalawe.jpg', description: 'A haven for elephant lovers, providing close encounters with these gentle giants.' },
-    { id: 10, name: 'Sinharaja Forest Reserve', image: 'sinharaja.jpg', description: 'A UNESCO-listed rainforest teeming with endemic flora and fauna.' },
+    { id: 6, name: 'Adam’s Peak (Sri Pada)', image: 'Adams_Peak_in_Sri_Lanka.jpg', description: 'A sacred mountain with a unique footprint, offering a spiritual climb and a stunning sunrise view.' },
+    { id: 7, name: 'Horton Plains National Park', image: 'horton-plains-nuwera.jpg', description: 'Famous for its "World\'s End" viewpoint, this plateau is ideal for trekking amidst misty landscapes.' },
+    { id: 8, name: 'Yala National Park', image: 'yala-elephant-attack (1).jpg', description: 'Known for its leopard population, Yala offers a chance to see wildlife like elephants, sloth bears, and exotic birds.' },
+    { id: 9, name: 'Udawalawe National Park', image: '12.jpg', description: 'A haven for elephant lovers, providing close encounters with these gentle giants.' },
+    { id: 10, name: 'Sinharaja Forest Reserve', image: 'sigiriya-lion-paw.jpg', description: 'A UNESCO-listed rainforest teeming with endemic flora and fauna.' },
   ],
   'Hill Country': [
     { id: 11, name: 'Nuwara Eliya', image: 'nuwara_eliya.jpg', description: 'Known as "Little England," this area is famed for its cool climate, tea plantations, and colonial architecture.' },

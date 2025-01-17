@@ -6,7 +6,7 @@
 }
 
 .custom-navbar .navbar-brand h3 {
-  font-size: 24px;
+  font-size: 20x;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
@@ -36,7 +36,7 @@
 }
 
 .custom-navbar .nav-link:hover {
-  color: #f1c40f !important; /* Gold color on hover */
+  color: #1a1919 !important; /* Gold color on hover */
 }
 
 .custom-navbar .btn-e-magazine {

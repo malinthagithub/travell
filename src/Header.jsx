@@ -1,44 +1,39 @@
+import React from 'react';
 import './Header.css'; // Add custom CSS for styling
 import { Carousel, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
- 
-
-  // Generate random image placeholders
- 
-
   const topPosts = [
     {
       id: 1,
-      imageUrl: `/images/beautiful-diamond-beach-penida-island-bali-indonesia.jpg`, // Random placeholder image
+      imageUrl: '/images/woman-taking-photo-morning-mist-phu-lang-ka-phayao-thailand.jpg',
       category: 'Adventure',
       title: 'Adventure Travel',
     },
     {
       id: 2,
-      imageUrl: `/images/woman-taking-photo-morning-mist-phu-lang-ka-phayao-thailand.jpg`, // Random placeholder image
+      imageUrl: '/images/thachomphu-railway-bridge-white-bridge-sunrise-lamphun-thailand.jpg',
       category: 'Relaxation',
-      title: 'Adventure Travel',
+      title: 'Relaxation Retreat',
     },
     {
       id: 3,
-      imageUrl: `/images/Untitled design (1).png`, // Random placeholder image
+      imageUrl: '/images/beautiful-girl-sitting-viewpoint-koh-nangyuan-island-near-koh-tao-island-surat-thani-thailand.jpg',
       category: 'Cultural',
-      title: 'Adventure Travel',
+      title: 'Cultural Journey',
     },
     {
       id: 4,
-      imageUrl: `/images/tropical-nature-background-wedding-paradise.jpg`, // Random placeholder image
+      imageUrl: '/images/happy-caucasian-pretty-long-hair-elegant-tourist-woman-dress-with-red-suitcase-outside-hotel.jpg',
       category: 'Nature',
-      title: 'Adventure Travel',
+      title: 'Nature Escape',
     },
   ];
 
   return (
     <Container fluid className="p-0">
-      <Carousel className="header-carousel" interval={1000} controls={true} indicators={true}>
+      <Carousel className="header-carousel" interval={3000} controls indicators>
         {topPosts.map((post, index) => (
           <Carousel.Item key={index}>
             <Link to={`/article/${post.id}`}>
@@ -49,7 +44,7 @@ function Header() {
               />
             </Link>
             <Carousel.Caption className="carousel-caption">
-              <img src='images/Untitled design.png' alt="Logo" className="logo" />
+              <img src="/images/Untitled design.png" alt="Logo" className="logo" />
               <h1>
                 <Link to={`/article/${post.id}`} className="text-white text-decoration-none">
                   {post.title}
